@@ -1,0 +1,40 @@
+﻿<Window x:Class="wpf_first_task.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_first_task"
+        mc:Ignorable="d"
+       
+        Title="MainWindow" Height="498.758" Width="814.221">
+    <Grid>
+        <StackPanel >
+            <StackPanel Orientation ="Horizontal" Height="218" Margin="50"  >
+
+                <Button Name="button1" Margin=" 50" Width=" 150" Height=" 50" Content=" 1" Click="button1_Click" >
+                </Button>
+                <Button Name="button2" Margin=" 50" Width=" 150" Height=" 50" Content=" 2" Click="button2_Click" >
+                </Button>
+                <Button Name="button3" Margin=" 50" Width=" 150" Height=" 50" Content=" 3" Click="button3_Click" >
+                </Button>
+
+
+
+            </StackPanel>
+            <StackPanel >
+                <StackPanel Orientation ="Horizontal"    >
+
+                    <Button Name="button4" Margin=" 90" Width=" 150" Height=" 50" Content=" 4" Click="button4_Click"  >
+                    </Button>
+                    <Button  Name="button5" Margin=" 20" Width=" 150" Height=" 50" Content=" 5" Click="button5_Click" >
+                    </Button>
+                    <Button Name="button6" Margin=" 70" Width=" 150" Height=" 50" Content=" 6" Click="button6_Click"  >
+                    </Button>
+
+
+
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
